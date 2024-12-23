@@ -1,4 +1,5 @@
 #include "Library.h"
+#include "Visitor.h"
 
 int main()
 {
@@ -20,5 +21,10 @@ int main()
     lib.addPublication(shared_ptr<Publication>(new SchoolBook("1286", "Geometry", "Merzlyak", 2016, "Ranok", 11)));
     lib.show();
 
+    Visitor a;
+
+    a.borrowPublication(lib.reserve("4323"));
+    a.show();
+    cout << endl;
 }
 

@@ -133,6 +133,7 @@
     <ClCompile Include="Magazine.cpp" />
     <ClCompile Include="Publication.cpp" />
     <ClCompile Include="SchoolBook.cpp" />
+    <ClCompile Include="Visitor.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Book.h" />
@@ -140,6 +141,7 @@
     <ClInclude Include="Magazine.h" />
     <ClInclude Include="Publication.h" />
     <ClInclude Include="SchoolBook.h" />
+    <ClInclude Include="Visitor.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />

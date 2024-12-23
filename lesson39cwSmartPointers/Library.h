@@ -2,12 +2,16 @@
 #include "SchoolBook.h"
 #include "Magazine.h"
 #include <set>
+#include <typeinfo>
 
 #include <memory>
 
 struct myCompare {
 	bool operator() (const shared_ptr<Publication> left, const shared_ptr<Publication> right)const {
 		return (left->getYear() < right->getYear());
+		
+		
+		
 	}
 };
 
@@ -28,6 +32,15 @@ public:
 
 	void addPublication(shared_ptr<Publication> obj) {
 		library.insert(obj);
+	}
+
+	shared_ptr<Publication> reserve(string ISBN) {
+		for (auto item : library) {
+			if (item->getISBN() == ISBN) {
+				return item;
+			}
+		}
+		return nullptr;
 	}
 
 	void show()const {
