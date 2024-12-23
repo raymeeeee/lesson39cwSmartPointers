@@ -25,7 +25,7 @@ public:
 		this->year = year;
 	}
 
-	virtual ~Publication() {};
+	virtual ~Publication() {}; //для правильного удаления унаследованых обьектов: чтобы вызывался деструктор именно унаследованого обьекта
 
 	string getISBN()const { return ISBN; }
 	string getName()const { return name; }
@@ -42,6 +42,7 @@ public:
 		cout << "Name: " << name << endl;
 		cout << "Author: " << author << endl;
 		cout << "Year: " << year << endl;
+		cout << endl;
 	}
 };
 
