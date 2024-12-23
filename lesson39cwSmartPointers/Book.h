@@ -18,11 +18,9 @@ public:
     void setManufacturer(string manufacturer) { this->manufacturer = manufacturer; }
 
     void show()const override {
-        cout << "\b" << endl;
         cout << "---Book---" << endl;
         Publication::show();
         cout << "Manufacturer: " << manufacturer << endl;
-        cout << endl;
     }
 };
 

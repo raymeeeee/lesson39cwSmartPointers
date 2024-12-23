@@ -42,7 +42,6 @@ public:
 		cout << "Name: " << name << endl;
 		cout << "Author: " << author << endl;
 		cout << "Year: " << year << endl;
-		cout << endl;
 	}
 };
 
