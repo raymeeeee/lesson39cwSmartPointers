@@ -15,6 +15,10 @@ public:
         this->number = number;
     }
 
+    ~Magazine() {
+        cout << "Magazine " << number  << " destroyed" << endl;
+    }
+
     int getNumber()const { return number; }
     void setNumber(int number) { this->number = number; }
 

@@ -14,6 +14,10 @@ public:
         this->manufacturer = manufacturer;
     }
 
+    ~Book() {
+        cout << "Book " << name << " destroyed" << endl;
+    }
+
     string getManufacturer()const { return manufacturer; }
     void setManufacturer(string manufacturer) { this->manufacturer = manufacturer; }
 

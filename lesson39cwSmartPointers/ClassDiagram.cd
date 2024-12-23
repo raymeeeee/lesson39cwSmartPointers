@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Book" Collapsed="true">
+    <Position X="1.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAAABAAAAAAAAAAAAAAAACBCABAAAAAAA=</HashCode>
+      <FileName>Book.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Magazine" Collapsed="true">
+    <Position X="3.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAQEAABAAAAAAAAAAAAAAABAEAAAAAAAA=</HashCode>
+      <FileName>Magazine.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Publication" Collapsed="true">
+    <Position X="2.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFEAAAAQBAAAAAAAAAAIAAAAAEIABABgAEAEQAQAA=</HashCode>
+      <FileName>Publication.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SchoolBook" Collapsed="true">
+    <Position X="1.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAAQAIAAAAAAAAAAAAAAAhAAAAAAAAAA=</HashCode>
+      <FileName>SchoolBook.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
