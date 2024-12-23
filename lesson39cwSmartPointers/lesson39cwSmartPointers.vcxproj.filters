@@ -27,6 +27,9 @@
     <ClCompile Include="SchoolBook.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Magazine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Publication.h">
@@ -36,6 +39,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="SchoolBook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Magazine.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
